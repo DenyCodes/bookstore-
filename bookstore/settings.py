@@ -145,4 +145,4 @@ REST_FRAMEWORK = {
     ],
 }
 
-ALLOWED_HOSTS = ['localhost', 'denycash.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost', 'denycodes.pythonanywhere.com']
