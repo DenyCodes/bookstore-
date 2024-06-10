@@ -26,8 +26,7 @@ SECRET_KEY = "django-insecure-p9m8t-f01-9igys1u_k(tw=+&)9v74wb&-8#oicso&_r%1j6)h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'denycodes.pythonanywhere.com']
 
 # Application definition
 
@@ -144,5 +143,3 @@ REST_FRAMEWORK = {
         "rest_framework.authentication.TokenAuthentication",
     ],
 }
-
-ALLOWED_HOSTS = ['localhost', 'denycodes.pythonanywhere.com']
